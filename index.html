@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PSHAX - Home</title>
+    <title>PSHAX - PS3 Modding</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,6 +33,15 @@
         main {
             padding: 20px;
         }
+        .download-links {
+            margin-top: 20px;
+        }
+        .download-links a {
+            display: block;
+            color: #00ffcc;
+            font-size: 18px;
+            margin: 10px 0;
+        }
         footer {
             background-color: #1f1f1f;
             padding: 10px;
@@ -44,22 +53,47 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to PSHAX</h1>
-        <p>Your one-stop site for PS3, PS4, and PS5 modding.</p>
+        <h1>PS3 Modding Guide</h1>
+        <p>Mod your PS3 with PS3HEN and homebrew applications.</p>
     </header>
     
     <nav>
         <ul>
-            <li><a href="ps3/ps3.html">PS3 Modding</a></li>
-            <li><a href="ps4/ps4.html">PS4 Modding</a></li>
-            <li><a href="ps5/ps5.html">PS5 Modding</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../ps4/ps4.html">PS4 Modding</a></li>
+            <li><a href="../ps5/ps5.html">PS5 Modding</a></li>
         </ul>
     </nav>
     
     <main>
         <section>
-            <h2>About PSHAX</h2>
-            <p>PSHAX provides modding guides and downloads for PlayStation consoles. Get the latest tools like PS3HEN, GoldHen, and ETA HEN.</p>
+            <h2>How to Install PS3HEN</h2>
+            <p>Follow these steps to install HFW and PS3HEN on your PS3:</p>
+            
+            <h3>Step 1: Install HFW (Hybrid Firmware)</h3>
+            <ol>
+                <li>Download the latest **HFW (Hybrid Firmware)** from a trusted source.</li>
+                <li>Format a USB drive to **FAT32** and create a folder named **PS3**.</li>
+                <li>Inside the **PS3** folder, create another folder named **UPDATE**.</li>
+                <li>Place the downloaded **HFW update file** (renamed to **PS3UPDAT.PUP**) inside the **UPDATE** folder.</li>
+                <li>Insert the USB into your PS3 and go to **System Update** > **Update via Storage Media**.</li>
+                <li>Follow the on-screen instructions to install HFW.</li>
+            </ol>
+            
+            <h3>Step 2: Install PS3HEN</h3>
+            <ol>
+                <li>Once HFW is installed, go to <a href="https://ps3xploit.me/" target="_blank">ps3xploit.me</a> on your PS3 browser.</li>
+                <li>Navigate to the **PS3HEN Installer** section.</li>
+                <li>Follow the instructions to install and activate PS3HEN.</li>
+                <li>Reboot your console and reactivate HEN after each restart.</li>
+                <li>Enjoy homebrew apps like MultiMan and WebMan.</li>
+            </ol>
+        </section>
+        
+        <section class="download-links">
+            <h2>Download Files</h2>
+            <a href="PKGS/multiman.pkg" download>Download MultiMan</a>
+            <a href="PKGS/webman.pkg" download>Download WebMan</a>
         </section>
     </main>
     
